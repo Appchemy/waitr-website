@@ -1,5 +1,10 @@
 import React from "react"
+import PageLayout from "../templates/page-layout"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <PageLayout>
+      Hey there
+    </PageLayout>
+  )
 }
