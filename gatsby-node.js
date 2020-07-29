@@ -9,15 +9,13 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const fileNode = getNode(node.parent)
     let parts = fileNode.relativePath.split('/')
 
-    if (parts[0] === 'blog') {
-      createNodeField({
-        node,
-        name: `type`,
-        value: 'blog',
-      })
+    createNodeField({
+      node,
+      name: `type`,
+      value: parts[0],
+    })
 
-      slug = createFilePath({ node, getNode, basePath: `blog` })
-    }
+    slug = createFilePath({ node, getNode, basePath: parts[0] })
 
     createNodeField({
       node,

@@ -1,5 +1,5 @@
 ---
 title: Test
-image: /public/aynm-logo.png
+image: /images/aynm-logo.png
 ---
 Hey there
