@@ -1,5 +1,6 @@
 import PageLayout from "./page-layout"
 import React from 'react'
+import { graphql } from 'gatsby'
 
 const Page = ({
     data

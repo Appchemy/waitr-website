@@ -16,6 +16,7 @@
   "dependencies": {
     "antd": "^4.5.1",
     "gatsby": "^2.23.12",
+    "gatsby-plugin-less": "^4.0.3",
     "gatsby-plugin-netlify-cms": "^4.3.11",
     "gatsby-source-filesystem": "^2.3.23",
     "gatsby-transformer-remark": "^2.8.27",

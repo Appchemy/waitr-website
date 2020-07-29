@@ -17,6 +17,19 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-less`,
+      options: {
+        lessOptions: {
+          javascriptEnabled: true,
+          modifyVars: {
+            'primary-color': '#4B4453',
+            'link-color': '#4B4453',
+            'layout-header-background': '#4B4453'
+          }
+       }
+      }
+    }
   ],
 }

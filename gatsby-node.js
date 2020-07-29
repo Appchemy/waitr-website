@@ -4,7 +4,7 @@ const path = require(`path`)
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    let slug = createFilePath({ node, getNode, basePath: `pages` })
+    let slug = createFilePath({ node, getNode, basePath: `content` })
 
     const fileNode = getNode(node.parent)
     let parts = fileNode.relativePath.split('/')
