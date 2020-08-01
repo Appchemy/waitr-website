@@ -12,7 +12,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Feature Image", name: "image", widget: "image"}
+      - {label: "Feature Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "features"
     label: "Features"
@@ -28,9 +28,9 @@ collections:
     folder: "content/header"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "markdown"}
       - {label: "Background Image", name: "image", widget: "image"}
-      - {label: "Button Text", name: "buttonText", widget: "string"}
-      - {label: "Button Link", name: "buttonLink", widget: "string"}
-      - {label: "Button Link External", name: "buttonLinkExternal", widget: "boolean"}
+      - {label: "Button Text", name: "buttonText", widget: "string", required: false}
+      - {label: "Button Link", name: "buttonLink", widget: "string", required: false}
+      - {label: "Button Link External", name: "buttonLinkExternal", widget: "boolean", required: false}
