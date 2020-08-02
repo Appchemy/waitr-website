@@ -1,5 +1,5 @@
 ---
-title: Laundromat
+title: Laundromats
 subtitle: "**Waitr is a Point of sale customized for laundromats. We’ve
   automated your manual process and designed a pos that will give both you and
   your customer more time to focus on other things. Your customer will have a
