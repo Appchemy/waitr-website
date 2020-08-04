@@ -1,5 +1,5 @@
 ---
-title: A point of sale customized for your business
+title: Artisans
 subtitle: Designed with your customers in mind
 image: /images/electrician.jpg
 ---
