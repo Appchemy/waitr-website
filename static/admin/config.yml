@@ -34,3 +34,11 @@ collections:
       - {label: "Button Text", name: "buttonText", widget: "string", required: false}
       - {label: "Button Link", name: "buttonLink", widget: "string", required: false}
       - {label: "Button Link External", name: "buttonLinkExternal", widget: "boolean", required: false}
+  - name: "business"
+    label: "Business"
+    folder: "content/business"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Position", name: "position", widget: "number"}
