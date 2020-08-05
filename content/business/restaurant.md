@@ -2,4 +2,4 @@
 title: Restaurant
 position: 3
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+Give your clients the satisfaction of knowing when they should come to collect their food. Waitr is a point of sale customized for your restaurant. The last thing a hungry customer wants is to arrive too early or too late to collect their food. Waitr will notify them immediately when their order is ready.
