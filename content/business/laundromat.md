@@ -2,4 +2,4 @@
 title: Laundromat
 position: 2
 ---
-Do not risk losing out on potential customers because of traffic congestion on your premises. Waitr is a point of sale customized for your carwash. It is designed to give you a quick ordering system that will securely link the customer to his car by scanning the license disk. The customer can leave his car and await a notification for collection.
+Waitr is a Point of sale customized for laundromats. We’ve automated your manual process and designed a pos that will give both you and your customer more time to focus on other things. Your customer will have a QR-code on their slip which they can scan to see the progress of their order and you will be able to notify them once their order is ready for collection.
