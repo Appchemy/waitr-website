@@ -42,7 +42,7 @@ const Businesses = () => {
                                                 </div>
                                             )
                                         ]} style={{}} hoverable={true} title={<p style={{textAlign: 'center', margin: 0}}>{business.frontmatter.title}</p>}>
-                                            <p style={{textAlign: 'center', height: 140}} dangerouslySetInnerHTML={{
+                                            <div style={{textAlign: 'center', height: 140}} dangerouslySetInnerHTML={{
                                                 __html: business.html
                                             }} />
                                         </Card>
