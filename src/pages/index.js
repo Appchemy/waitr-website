@@ -1,23 +1,25 @@
 import React from "react"
-import PageLayout from "../templates/page-layout"
+// import PageLayout from "../templates/page-layout"
 import { graphql } from 'gatsby'
-import Businesses from "../components/businesses"
-import HorizontalContactForm from "../components/horizontal-contact-form"
-import Features from "../components/features"
+// import Businesses from "../components/businesses"
+// import HorizontalContactForm from "../components/horizontal-contact-form"
+// import Features from "../components/features"
+import HomePage from "./home"
 
 export default function Home({
   data
 }) {
-  const headers = data.allMarkdownRemark.edges.map(item => {
-    return item.node
-  })
+  // const headers = data.allMarkdownRemark.edges.map(item => {
+  //   return item.node
+  // })
 
   return (
-    <PageLayout showHeader={true} headers={headers}>
-      <Businesses />
-      <HorizontalContactForm />
-      <Features />
-    </PageLayout>
+    <HomePage />
+    // <PageLayout showHeader={true} headers={headers}>
+    //   <Businesses />
+    //   <HorizontalContactForm />
+    //   <Features />
+    // </PageLayout>
   )
 }
 
