@@ -22,19 +22,3 @@ export default function Home({
     // </PageLayout>
   )
 }
-
-export const query = graphql`
-  query GetHeaders {
-    allMarkdownRemark(filter: {fields: {type: {eq: "header"}}}) {
-        edges {
-          node {
-            frontmatter {
-              title
-              subtitle
-              image
-            }
-          }
-        }
-      }
-  }
-`

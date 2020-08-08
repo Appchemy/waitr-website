@@ -7,6 +7,23 @@
 module.exports = {
   siteMetadata: {
     title: `Waitr`,
+    siteUrl: 'https://www.waitr.co.za',
+    description: 'A POS designed for your customers',
+    contact: {
+      email: 'hello@waitr.co.za',
+      phone: '+27 71 554 4918',
+      address: [
+        'Suite U8, Enterprise Building',
+        'The Innovation Hub, Lynnwood',
+        'Pretoria, 0087'
+      ]
+    },
+    socialMedia: {
+      facebook: 'waitrpos',
+      twitter: 'waitrpos',
+      instagram: 'waitrpos',
+      linkedin: 'waitrpos'
+    }
   },
   plugins: [
     {

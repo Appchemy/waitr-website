@@ -15,6 +15,7 @@ export default function HTML(props) {
         <link rel="stylesheet" href="/assets/css/style-starter.css" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap" rel="stylesheet"></link>
+        <link href="/assets/css/all.css" rel="stylesheet"></link>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

@@ -5,7 +5,7 @@ import { StaticQuery } from 'gatsby'
 const Businesses = () => {
     return (
         <StaticQuery query={graphql`
-            query GetBusinesses {
+            query GetBusinessesOld {
                 allMarkdownRemark(filter: {fields: {type: {eq: "business"}}}) {
                     edges {
                     node {

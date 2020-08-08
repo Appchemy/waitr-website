@@ -1,0 +1,38 @@
+.slide {
+    background: none !important;
+}
+
+.buttons-teams {
+    display: flex;
+    margin-top: 15px;
+}
+
+.buttons-teams a {
+    margin-right: 5px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+}
+
+.buttons-teams .facebook {
+    background: #3b5998 ;
+}
+
+.buttons-teams .twitter {
+    background: #00acee;
+}
+
+.buttons-teams .instagram {
+    background: #3f729b;
+}
+
+.buttons-teams .linkedin {
+    background: #0e76a8 ;
+}
