@@ -11,7 +11,7 @@ const Card = ({
             <div className="back-color" style={{minHeight: 320}}>
                 <span className={icon} aria-hidden="true"></span>
                 <h4><a href="about.html" className="title-head">{title}</a></h4>
-                <p className="para" dangerouslySetInnerHTML={{__html: description}} />
+                <div className="para" dangerouslySetInnerHTML={{__html: description}} />
             </div>
         </div>
     )
