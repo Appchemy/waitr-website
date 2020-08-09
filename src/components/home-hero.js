@@ -25,13 +25,13 @@ const HomeHero = () => {
                 return item.node
             })
             return (
-                <div className="w3l-hero-headers-9" style={{background: '#4B4453', borderBottomRightRadius: '60%'}}>
-                    <Carousel dynamicHeight={false} showArrows={false} swipeable={false} autoPlay={true} infiniteLoop={true} stopOnHover={true} axis='vertical' showStatus={false}>
+                <div className="w3l-hero-headers-9" style={{background: '#4B4453', borderBottomRightRadius: '60%', height: 500}}>
+                    <Carousel dynamicHeight={true} interval={3000} showArrows={false} swipeable={false} autoPlay={false} infiniteLoop={true} stopOnHover={true} axis='vertical' showStatus={false}>
                         {headers.map((header, index) => {
                             return (
-                                <section key={`header-${index}`} className="slide slide-one" style={{background: 'none', height: 350}}>
+                                <section key={`header-${index}`} className="slide slide-one" style={{background: 'none', height: 500}}>
                     
-                                <div className="container">
+                                <div className="container" style={{height: 300}}>
                                 
                                         <div className="row">
                                             <div className="banner-text col-lg-5" style={{textAlign: 'left'}}>

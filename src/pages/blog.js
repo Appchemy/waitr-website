@@ -8,6 +8,12 @@ const BlogPage = ({
 }) => {
   const blogs = data.allMarkdownRemark.edges.map(item => {
     return item.node
+  }).sort((a, b) => {
+    if (a.frontmatter.date > b.frontmatter.date) {
+      return -1
+    }
+
+    return 1
   })
 
   return (
