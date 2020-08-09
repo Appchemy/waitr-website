@@ -41,8 +41,8 @@ const Businesses = () => {
                                                     <Button type='primary'>Read More</Button>
                                                 </div>
                                             )
-                                        ]} style={{}} hoverable={true} title={<p style={{textAlign: 'center', margin: 0}}>{business.frontmatter.title}</p>}>
-                                            <div style={{textAlign: 'center', minHeight: 160}} dangerouslySetInnerHTML={{
+                                        ]} hoverable={true} title={<p style={{textAlign: 'center', margin: 0}}>{business.frontmatter.title}</p>}>
+                                            <div style={{textAlign: 'center', minHeight: 250}} dangerouslySetInnerHTML={{
                                                 __html: business.html
                                             }} />
                                         </Card>

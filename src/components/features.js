@@ -38,8 +38,8 @@ const Features = () => {
                                         <div className="call-grids-w3">
                                             {features.map((feature, index) => {
                                                 return (
-                                                    <div className="grids-1 grids-effect-2">
-                                                        <h4><a href="about.html" className="title-head">{feature.frontmatter.title}</a></h4>
+                                                    <div key={`feature-${index}`} className="grids-1 grids-effect-2">
+                                                        <h4 style={{marginBottom: 5}}>{feature.frontmatter.title}</h4>
                                                         <div className="para" dangerouslySetInnerHTML={{__html: feature.html}}></div>
                                                     </div>
                                                 )

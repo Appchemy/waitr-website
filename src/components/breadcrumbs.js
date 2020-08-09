@@ -6,7 +6,7 @@ const Breadcrumbs = ({
 }) => {
     return (
         <section class="w3l-inner-banner-main">
-            <div class="about-inner inner2">
+            <div class="about-inner inner2" style={{height: 250}}>
                 <div class="container seen-w3">
                     <ul class="breadcrumbs-custom-path">
                         <li><Link to='/'>Home <span class="fa fa-angle-right" aria-hidden="true"></span></Link></li>

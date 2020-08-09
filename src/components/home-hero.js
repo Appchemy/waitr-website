@@ -41,7 +41,7 @@ const HomeHero = () => {
                                                 <h6 className="para">Try a <strong>free demo </strong>with all the features.</h6>
                                             </div>
                                             <div className="image-postion col-lg-7">
-                                                <img src={header.frontmatter.image} alt="product" className="img-responsive banner-images" />
+                                                <img src={header.frontmatter.image} style={{height: 300, objectFit: 'cover', objectPosition: 'top'}} alt="product" className="img-responsive banner-images" />
                                             </div>
                                         </div>
                                         
