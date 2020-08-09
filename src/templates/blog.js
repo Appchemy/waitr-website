@@ -5,13 +5,14 @@ import moment from 'moment'
 import { Theme } from "../styles/theme"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
+import { Disqus } from 'gatsby-plugin-disqus'
 
 const Page = ({
     data
 }) => {
     const post = data.markdownRemark
     const disqusConfig = {
-      url: `https://reactfire.com${post.fields.slug}`,
+      url: `https://waitr.co.za${post.fields.slug}`,
       identifier: post.fields.slug,
       title: post.frontmatter.title,
     }
@@ -44,6 +45,8 @@ const Page = ({
                 overflow: 'hidden'
             }} dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
+
+            <Disqus config={disqusConfig} />
         </PageLayout>
     )
 }
