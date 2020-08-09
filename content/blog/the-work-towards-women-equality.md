@@ -17,9 +17,9 @@ We need to start NOW! #WHYWAIT
 
 In the spirit of Women’s month, we interviewed two businesswomen who are making moves that will not just be beneficial to them, but also the families of those they have employed.
 
-
-
 ## Tshegofatso Malope
+
+![Picture of Tshegofatso Malope](/images/tshegofatso-2.jpg "Tshegofatso Malope on her farm in Moretele, North West.")
 
 I'm a 32-year-old wife and mother of 3. My academic background is in psychology and education. I joined the farming sector 10 years ago, as a hobby and my passion kept the venture going to date. I consider myself to be a serial entrepreneur as I'm currently setting up ventures in other sectors of business such as property and general trading. I am self-motivated, a hard-working go-getter who is self-driven and goal-oriented. Above all else, I am a God-fearing child of God!
 
@@ -46,8 +46,6 @@ Your dreams are valid, chase them and don't look back. Fight for them and refuse
 ### Why would you advise someone not to wait to pursue their dreams?
 
 “I believe our dreams keep us alive. When you follow your dreams, then your life becomes worth living. Dreams give us hope and I do believe that when one doesn't follow their dreams, they will spend the rest of their lives helping someone else fulfil their dreams. Don't wait, Don't feed your fears, just do!”
-
-
 
 ## Shabnam Hassim
 
