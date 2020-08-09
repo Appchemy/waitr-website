@@ -49,6 +49,8 @@ Your dreams are valid, chase them and don't look back. Fight for them and refuse
 
 ## Shabnam Hassim
 
+![A Picture of Shabnam Hassim ](/images/img-20200807-wa0030-3.jpg "Shabnam Hassim - Eazi Laundromat")
+
 I am a BCom graduate with many years of corporate experience. I left the corporate world to start my own business. I wanted flexibility in my times of work and owning my own business gives me that.
 
 ### Please give a brief description of your business.
