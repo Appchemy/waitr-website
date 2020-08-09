@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Card, Button } from 'antd'
-import { StaticQuery } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
 const Businesses = () => {
     return (

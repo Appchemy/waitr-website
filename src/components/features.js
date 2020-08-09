@@ -1,12 +1,7 @@
 import React from 'react'
-import { Row, Col, Card } from 'antd'
-import { StaticQuery, graphql } from 'gatsby'
-import { Theme } from '../styles/theme'
+import { StaticQuery, Link, graphql } from 'gatsby'
 
-const Features = ({
-    features = []
-}) => {
-    
+const Features = () => {
     return (
         <StaticQuery query={graphql`
             query GetFeatures {
@@ -24,42 +19,43 @@ const Features = ({
             }`} render={data => {
                 const features = data.allMarkdownRemark.edges.map(item => {
                     return item.node
-                  }).sort((a, b) => {
-                      if (a.frontmatter.title < b.frontmatter.title) {
-                          return -1
-                      }
+                }).sort((a, b) => {
+                    if (a.frontmatter.title < b.frontmatter.title) {
+                        return -1
+                    }
 
-                      return 1
-                  })
+                    return 1
+                })
 
                 return (
-                    <div style={{marginTop: 60, marginBottom: 60}}>
-                    <h3 style={{textAlign: 'center', fontSize: '2em', marginBottom: 40}}>Features</h3>
-                    <Row gutter={[16, 16]}>
-                        {features.map((feature, index) => {
-                            return (
-                                <Col key={index} xs={24} sm={12} md={8}>
-                                    <Card hoverable style={{marginBottom: 30}}>
-                                        <div style={{position: 'absolute', left: 0, right: 0, top: -30, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                                            <div style={{backgroundColor: Theme.secondaryColor, width: 60, height: 60, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                                                <img style={{
-                                                    width: 30,
-                                                    height: 30,
-                                                    objectFit: 'contain'
-                                                }} src={feature.frontmatter.icon} alt={feature.frontmatter.title} />
-                                            </div>
+                    <section className="w3l-grids-7">
+                        <div className="grids4-block">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="column-text col-lg-6">
+                                        <h3 className="team-head">Features</h3>
+                                        <p className="para text">View some of the features we offer</p>
+                                        <div className="call-grids-w3">
+                                            {features.map((feature, index) => {
+                                                return (
+                                                    <div className="grids-1 grids-effect-2">
+                                                        <h4><a href="about.html" className="title-head">{feature.frontmatter.title}</a></h4>
+                                                        <div className="para" dangerouslySetInnerHTML={{__html: feature.html}}></div>
+                                                    </div>
+                                                )
+                                            })}
                                         </div>
-                                        <h2 style={{textAlign: 'center', marginTop: 20}}>{feature.frontmatter.title}</h2>
-                                        <div style={{textAlign: 'center', minHeight: 150}} dangerouslySetInnerHTML={{__html: feature.html}} />
-                                    </Card>
-                                </Col>
-                            )
-                        })}
-                    </Row>
-                </div>
+                                        <Link to='/features' className="btn action-button mt-lg-5 mt-4 ">Read more</Link>
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <img src="assets/images/b2.png" alt="product" className="img-responsive " />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 )
             }} />
-        
     )
 }
 

@@ -47,7 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
       if (['blog', 'page'].indexOf(node.fields.type) != -1) {
         createPage({
           path: node.fields.slug,
-          component: path.resolve(`./src/templates/page.js`),
+          component: path.resolve(`./src/templates/blog.js`),
           context: {
             // Data passed to context is available
             // in page queries as GraphQL variables.

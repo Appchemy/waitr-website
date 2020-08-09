@@ -6,6 +6,7 @@ import Logos from '../components/logos'
 import CardList from '../components/card-list'
 import Testimonials from '../components/testimonials'
 import Footer from '../components/footer'
+import Features from '../components/features'
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <HomeHero />
             <WideFeature />
             <CardList />
+            <Features />
             <Logos />
             <Testimonials />
             <Footer />

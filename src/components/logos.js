@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './title'
-import { StaticQuery } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
 const Logos = () => {
     return <StaticQuery query={graphql`

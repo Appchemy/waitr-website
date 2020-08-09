@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const WideFeature = () => {
     return (
@@ -11,7 +12,7 @@ const WideFeature = () => {
                             <img src="assets/images/b11.png" alt="product" className="img-responsive " />
                         </div>
                         <div className="column2 col-lg-6">
-                            <h3 className="team-head">A better Business means better Client experience</h3>
+                            <h3 className="team-head">Get your own app for online orders</h3>
                             <p className="para text">Mollitia placeat modi explicabo voluptatum corporis unde? Dicta, provident!
                             Rem adipisci Mollitia placeat modi explicabo voluptatum corporis unde? Dicta, provident!
                             Rem adipisci consectetur adipisicing elit. Deleniti possimus culpa nemo asperiores aperiam
@@ -21,6 +22,7 @@ const WideFeature = () => {
                                 Rem adipisci consectetur adipisicing elit. Deleniti possimus culpa nemo asperiores aperiam
                                 mollitia, maiores
                                 </p>
+                                <Link to='/features' className="btn action-button" style={{width: 250, marginTop: 10}}>Start 30 Days Free Trial</Link>
                         </div>
                     </div>
                 </div>

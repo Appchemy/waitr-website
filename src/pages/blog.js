@@ -1,31 +1,32 @@
 import React from "react"
 import PageLayout from "../templates/page-layout"
-import { Row, Col, Card } from "antd"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
+import BlogCard from "../components/blog-card"
 
 const BlogPage = ({
-    data
+  data
 }) => {
-    const blogs = data.allMarkdownRemark.edges.map(item => {
-        return item.node
-    })
+  const blogs = data.allMarkdownRemark.edges.map(item => {
+    return item.node
+  })
 
   return (
-    <PageLayout>
-      <div style={{paddingLeft: 20, paddingRight: 20}}>
+    <PageLayout pages={[
+      {
+        title: 'Blog',
+        active: true
+      }
+    ]}>
         <h1>Blog Posts</h1>
-        <Row gutter={[16, 16]}>
-        {blogs.map((blog, index) => {
-            return (
-                <Col xs={24} sm={12} lg={12} key={index}>
-                    <Card hoverable actions={[<Link to={blog.fields.slug}>Read</Link>]} cover={<img alt={blog.frontmatter.title} style={{height: 200, width: '100%', objectFit: 'cover'}} src={blog.frontmatter.image} />}>
-                        <Card.Meta title={blog.frontmatter.title} description={<div style={{minHeight: 100}}>{blog.excerpt}<br/><div style={{marginTop: 10, fontWeight: 'bold'}}></div></div>} />
-                    </Card>
-                </Col>
-            )
-        })}
-        </Row>
-    </div>
+          <div className="main-w3">
+            <div className="container">
+              <div className="row">
+                {blogs.map((blog, index) => {
+                  return <BlogCard key={`blog-card-${index}`} blog={blog} />
+                })}
+              </div>
+            </div>
+          </div>
     </PageLayout>
   )
 }
@@ -44,8 +45,10 @@ export const query = graphql`
             frontmatter {
               title
               image
+              date
             }
             excerpt(format: PLAIN)
+            timeToRead
           }
         }
       }

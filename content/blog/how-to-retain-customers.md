@@ -1,6 +1,7 @@
 ---
 title: "How To Retain Customers "
 image: /images/ecommerce-2140604_1920.jpg
+date: 2020-07-28 22:50
 ---
 These unprecedented times has the whole of South Africa in a constant mourning state as news keeps flooding in of product discontinuations and companies such as Domino’s Pizza, closing down. As a small business owner, these headlines are scary and probably has you questioning your survival till post-pandemic, or even for the next month.
 

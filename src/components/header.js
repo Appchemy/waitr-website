@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, StaticQuery } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 
 const Header = () => {
     return (
@@ -55,7 +55,7 @@ const Header = () => {
                                 </ul>
                                 <ul className="navbar-nav search-righ">
                                     <li className="nav-item">
-                                        <a href='https://portal.waitr.co.za' target='_blank' className="nav-link">Sign In</a>
+                                        <a href='https://portal.waitr.co.za' target='_blank' rel='noreferrer' className="nav-link">Sign In</a>
                                     </li>
                                 </ul>
                             </div>

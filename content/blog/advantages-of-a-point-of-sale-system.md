@@ -1,6 +1,7 @@
 ---
 title: "Advantages Of A Point Of Sale System "
 image: /images/customer-notification.png
+date: 2020-07-28 22:50
 ---
 As a small business owner, you might have heard or read about Point-of-Sale Systems. If you have never considered getting one before, I am certain that you might be considering it now. this epidemic has shaken up the business operations, forcing business owners to look at more efficient methods of operation.
 

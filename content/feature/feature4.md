@@ -1,5 +1,5 @@
 ---
-title: Business Expenses and Inventory
+title: Business Expenses
 color: null
 icon: /images/mail.png
 fullScreen: true

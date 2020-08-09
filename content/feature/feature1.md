@@ -1,5 +1,5 @@
 ---
-title: "Business Insight "
+title: "Business Insight"
 color: null
 icon: /images/mail.png
 fullScreen: true

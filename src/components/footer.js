@@ -1,5 +1,5 @@
 import React from 'react'
-import { StaticQuery, Link } from 'gatsby'
+import { StaticQuery, Link, graphql } from 'gatsby'
 
 const Footer = () => {
     return <StaticQuery query={graphql`
@@ -102,10 +102,10 @@ const Footer = () => {
                                     <div className="col-lg-7 col-md-7 col-12 copyright-grid ">
                                         <div style={{display: 'flex', justifyContent: 'flex-end', marginBottom: 10}}>
                                             <div className="buttons-teams">
-                                                <a href={`https://www.facebook.com/${site.socialMedia.facebook}`} target='_blank'><span className="facebook social-icon fab fa-facebook-f" aria-hidden="true"></span></a>
-                                                <a href={`https://www.twitter.com/${site.socialMedia.twitter}`} target='_blank'><span className="twitter social-icon fab fa-twitter" aria-hidden="true"></span></a>
-                                                <a href={`https://www.instagram.com/${site.socialMedia.instagram}`} target='_blank'><span className="instagram social-icon fab fa-instagram" aria-hidden="true"></span></a>
-                                                <a href={`https://www.linkedin.com/${site.socialMedia.linkedin}`} target='_blank'><span className="linkedin social-icon fab fa-linkedin" aria-hidden="true"></span></a>
+                                                <a href={`https://www.facebook.com/${site.socialMedia.facebook}`} rel='noreferrer' target='_blank'><i aria-label="Facebook" className="facebook social-icon fab fa-facebook-f" aria-hidden="true" /> </a>
+                                                <a href={`https://www.twitter.com/${site.socialMedia.twitter}`} rel='noreferrer' target='_blank'><i aria-label="Twitter" className="twitter social-icon fab fa-twitter" aria-hidden="true" /> </a>
+                                                <a href={`https://www.instagram.com/${site.socialMedia.instagram}`} rel='noreferrer' target='_blank'><i aria-label="Instagram" className="instagram social-icon fab fa-instagram" aria-hidden="true" /> </a>
+                                                <a href={`https://www.linkedin.com/${site.socialMedia.linkedin}`} rel='noreferrer' target='_blank'><i aria-label="Linkedin" className="linkedin social-icon fab fa-linkedin" aria-hidden="true" /> </a>
                                             </div>
                                         </div>
                                         <p className="copy-footer-29">© 2020 WaitrPOS. All rights reserved

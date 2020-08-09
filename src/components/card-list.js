@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from './title'
 import Card from './card'
-import { StaticQuery } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 
 const CardList = () => {
     return <StaticQuery query={graphql`
