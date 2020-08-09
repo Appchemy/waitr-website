@@ -17,55 +17,55 @@ We need to start NOW! #WHYWAIT
 
 In the spirit of Women’s month, we interviewed two businesswomen who are making moves that will not just be beneficial to them, but also the families of those they have employed.
 
-## Tshegofatso Malope
+### Tshegofatso Malope
 
 ![Picture of Tshegofatso Malope](../../static/images/tshegofatso-2.jpg "Tshegofatso Malope - Diphofu Investment")
 
 I'm a 32-year-old wife and mother of 3. My academic background is in psychology and education. I joined the farming sector 10 years ago, as a hobby and my passion kept the venture going to date. I consider myself to be a serial entrepreneur as I'm currently setting up ventures in other sectors of business such as property and general trading. I am self-motivated, a hard-working go-getter who is self-driven and goal-oriented. Above all else, I am a God-fearing child of God!
 
-### Please give a brief description of your business.
+#### Please give a brief description of your business.
 
 As mentioned above, I've been in the farming sector for a good 10 years. I started in poultry production, then added Piggery to our profile and recently joined the crop production sector. We're a small scale farm, hoping to grow into a commercial farm holding. We recently launched our online store, to create a market for our produce and to broaden our clientele. We collaborate with neighbouring farmers to meet supply demands in both the online store and the fresh produce store on the farm.
 
-### What made you decide to go into this line of business?
+#### What made you decide to go into this line of business?
 
 I believe I was born to farm because I am one with the soil. My academic background is simply a career choice of interest and I love it, but farming is not only my passion but my calling. I am all for rural community development. I was simply born for this.
 
-### What are some of the challenges you are facing as a woman in your industry?
+#### What are some of the challenges you are facing as a woman in your industry?
 
 Opportunities are there but placed in the hands of wrong distributors to say. Woman empowerment in the sector feels more like a myth to those of us who apply a year in and year out without any luck. Corruption in this sector milks the reserves dry and leaves us hopeless. The farming sector is predominantly male and Afrikaans. It's very easy to get lost in the crowd because you're overlooked at every turn. Finally the lack of access to market!
 
-### What new challenges were brought by the pandemic, and how are you responding to these challenges?
+#### What new challenges were brought by the pandemic, and how are you responding to these challenges?
 
 I had challenges accessing feeds for the Piggery in the beginning due to provincial border issues. I had to find a new supplier and it's all resolved.
 
-### What advice would you give a prospective female entrepreneur?
+#### What advice would you give a prospective female entrepreneur?
 
 Your dreams are valid, chase them and don't look back. Fight for them and refuse to give up. Fall, cry, then get up and keep going. Nobody owes us women empowerment if you're lucky enough to get that break, bring a sister along. If you're not so lucky, don't sit and wait. Your passion and hard work will sustain you. Start where you are, with what you have. Pray and keep praying for a better day.
 
-### Why would you advise someone not to wait to pursue their dreams?
+#### Why would you advise someone not to wait to pursue their dreams?
 
 “I believe our dreams keep us alive. When you follow your dreams, then your life becomes worth living. Dreams give us hope and I do believe that when one doesn't follow their dreams, they will spend the rest of their lives helping someone else fulfil their dreams. Don't wait, Don't feed your fears, just do!”
 
-## Shabnam Hassim
+### Shabnam Hassim
 
 ![A Picture of Shabnam Hassim ](../../static/images/img-20200807-wa0030-3.jpg "Shabnam Hassim - Eazi Laundromat")
 
 I am a BCom graduate with many years of corporate experience. I left the corporate world to start my own business. I wanted flexibility in my times of work and owning my own business gives me that.
 
-### Please give a brief description of your business.
+#### Please give a brief description of your business.
 
 It’s a Laundromat. We offer full laundry services as well as Dry Cleaning, Shoe Repairs and Alterations.
 
-### What made you decide to go into this line of business?
+#### What made you decide to go into this line of business?
 
 Firstly, it was divine inspiration. Due to the current economic crisis causing a high unemployment rate, I wanted to give back and start in a small way to create some employment.
 
-### What are some of the challenges you are facing as a woman in your industry?
+#### What are some of the challenges you are facing as a woman in your industry?
 
 The industry I work in I see more benefit being a female rather than many challenges.
 
-### What new challenges were brought by the pandemic, and how are you responding to these challenges?
+#### What new challenges were brought by the pandemic, and how are you responding to these challenges?
 
 The business was very badly affected. Trying to stay afloat and keep my doors open by being positive that things will return to normal soon. We launched an online laundry service where we collect and drop off.
 

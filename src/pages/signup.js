@@ -4,7 +4,7 @@ import { navigate } from 'gatsby'
 import { Formik } from 'formik'
 
 const Pricing = () => {
-    const [contactForm, setContactForm] = useState(null)
+    // const [contactForm, setContactForm] = useState(null)
     const [formValues, setFormValues] = useState({
         firstname: '',
         lastname: '',
@@ -24,12 +24,12 @@ const Pricing = () => {
 
     const submit = event => {
         event.preventDefault()
-        const form = contactForm
+        // const form = contactForm
         fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
-            "form-name": form.getAttribute("name"),
+            "form-name": 'Sign Up',
             ...formValues,
         }),
         })
@@ -51,13 +51,11 @@ const Pricing = () => {
                 {({
                     values,
                     handleBlur,
-                    handleChange
+                    handleChange,
+                    handleSubmit
                 }) => {
                     return (
-                        <form ref={ref => {
-                            if (ref) {
-                                setContactForm(ref)
-                            }
+                       
                         }} netlify-honeypot="bot-field" class="w3layouts-contact-fm" data-netlify="true" name="Sign Up" netlify>
                             <input method='POST' type="hidden" name="form-name" value="Contact Form" />
                             <div class="row main-cont-sec">
@@ -79,7 +77,7 @@ const Pricing = () => {
                                             required="" />
                                     </div>
                                     <div class="form-group-2">
-                                        <button onClick={submit} class="btn action-button mt-3">Sign Me Up</button>
+                                        <button onClick={handleSubmit} class="btn action-button mt-3">Sign Me Up</button>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 right-cont-contact">
@@ -88,8 +86,6 @@ const Pricing = () => {
                                     </div>
                                 </div>
                             </div>
-                           
-                        </form>
                     )
                 }}
             </Formik>
