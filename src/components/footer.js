@@ -66,9 +66,9 @@ const Footer = () => {
                                     </div>
                                     <div className="col-lg-5 col-md-5 footer-bottom-two">
                                         <ul>
-                                            <li> <a href="contact.html" className="btn action-sub-button">Contact</a></li>
-                                            <li> <a href="services.html" className="btn logo-button top-margin mt-md-3">Our Service</a>
-                                            </li>
+                                            <li> <Link to="/contact" className="btn action-sub-button">Contact</Link></li>
+                                            {/* <li> <a href="services.html" className="btn logo-button top-margin mt-md-3">Our Service</a>
+                                            </li> */}
                                         </ul>
                                     </div>
 

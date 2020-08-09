@@ -45,7 +45,7 @@ const Features = () => {
                                                 )
                                             })}
                                         </div>
-                                        <Link to='/features' className="btn action-button mt-lg-5 mt-4 ">Read more</Link>
+                                        <Link to='/signup' className="btn action-button mt-lg-5 mt-4 ">Sign Up</Link>
                                     </div>
                                     <div className="col-lg-6">
                                         <img src="assets/images/b2.png" alt="product" className="img-responsive " />

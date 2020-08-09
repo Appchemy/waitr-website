@@ -19,7 +19,7 @@ const WideFeature = () => {
                                 Rem adipisci consectetur adipisicing elit. Deleniti possimus culpa nemo asperiores aperiam
                                 mollitia, maiores
                                 </p> */}
-                                <Link to='/features' className="btn action-button" style={{width: 250, marginTop: 10}}>Start 30 Days Free Trial</Link>
+                                <Link to='/signup' className="btn action-button" style={{width: 250, marginTop: 10}}>Start 30 Days Free Trial</Link>
                         </div>
                     </div>
                 </div>
