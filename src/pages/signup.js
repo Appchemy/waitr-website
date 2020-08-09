@@ -22,15 +22,14 @@ const Pricing = () => {
             .join("&")
     }
 
-    const submit = event => {
-        event.preventDefault()
+    const submit = values => {
         // const form = contactForm
         fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
             "form-name": 'Sign Up',
-            ...formValues,
+            ...values,
         }),
         })
         .then(() => navigate("/success-signup"))
@@ -48,7 +47,7 @@ const Pricing = () => {
             <p><strong>#WhyWait</strong> for better days? Sign up for a <strong>FREE</strong> trial to enjoy 30 days of no admin work while Waitr helps you to improve your business. No need to take our word for it, let your customers give you feedback, and if it doesn’t work out, we will let you run your business as you used to. </p>
             <div style={{marginTop: 20}}>
             <Formik initialValues={formValues} onSubmit={values => {
-                setFormValues(values)
+                submit(values)
             }}>
                 {({
                     values,
