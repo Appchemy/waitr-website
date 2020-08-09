@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
+import { slide as Menu } from 'react-burger-menu'
+import { Theme } from '../styles/theme'
 
 const Header = () => {
+    const [isOpen, setIsOpen] = useState(false)
+
     return (
         <StaticQuery query={graphql`
         query GetMenuForTop {
@@ -31,13 +35,22 @@ const Header = () => {
 
             return (
                 <section className=" w3l-header-4 header-sticky">
+                    <Menu right isOpen={isOpen}>
+                        <div style={{background: Theme.primaryColor, height: '100%'}} className='side-menu'>
+                            <Link to="/">Home</Link>
+                            <Link to='/pricing'>Pricing</Link>
+                            <Link to='/pricing'>Contact Us</Link>
+                            <Link to='/blog'>Blog</Link>
+                            <a href='https://portal.waitr.co.za' rel='noreferrer' target='_blank'>Sign In</a>
+                        </div>
+                    </Menu>
                 <header className="absolute-top">
                     <div className="container">
                         <nav className="navbar navbar-expand-lg navbar-light" >
                             <Link className="navbar-brand" to='/'>
                    <img src='/images/logo.png' alt='Waitr Logo' style={{height: 40, marginTop: 15}} />
                 </Link>
-                            <button className="navbar-toggler bg-gradient" type="button" data-toggle="collapse"
+                            <button onClick={() => setIsOpen(!isOpen)} className="navbar-toggler bg-gradient" type="button" data-toggle="collapse"
                                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                 aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
