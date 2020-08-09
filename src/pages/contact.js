@@ -1,10 +1,31 @@
 import React from 'react'
 import PageLayout from '../templates/page-layout'
+import { Formik } from 'formik'
+import { navigate } from 'gatsby'
 
 const Contact = ({
     data
 }) => {
     const site = data.site.siteMetadata
+
+    const encode = data => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&")
+    }
+
+    const send = values => {
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({
+                "form-name": 'Contact Us',
+                ...values,
+            }),
+            })
+            .then(() => navigate("/success-contact"))
+            .catch(error => alert(error))
+    }
 
     return (
         <PageLayout pages={[
@@ -73,33 +94,50 @@ const Contact = ({
                         </div>
                     </div>
 
-                    <form method="post" class="w3layouts-contact-fm" action="https://sendmail.w3layouts.com/submitForm">
-                        <div class="row main-cont-sec">
-                            <div class="col-lg-6 left-cont-contact">
-                                <div class="form-group input-gap">
-                                    <input class="form-control" type="text" name="w3lName" id="w3lName" placeholder="First Name"
-                                        required="" />
-                                </div>
-                                <div class="form-group input-gap">
-                                    <input class="form-control" type="text" name="w3lName" id="w3lName" placeholder="Last Name"
-                                        required="" />
-                                </div>
-                                <div class="form-group input-gap">
-                                    <input class="form-control" type="email" name="w3lSender" id="w3lSender" placeholder="Email"
-                                        required="" />
-                                </div>
-                            </div>
-                            <div class="col-lg-6 right-cont-contact">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="w3lMessage" id="w3lMessage" placeholder="Write Message"
-                                        required=""></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group-2">
-                            <button type="submit" class="btn action-button mt-3">Send Now</button>
-                        </div>
-                    </form>
+                    <Formik initialValues={{
+                        firstname: '',
+                        lastname: '',
+                        email: '',
+                        message: ''
+                    }} onSubmit={send}>
+                        {({
+                            values,
+                            handleBlur,
+                            handleChange,
+                            handleSubmit
+                        }) => {
+                            return (
+                                <form class="w3layouts-contact-fm">
+                                    <div class="row main-cont-sec">
+                                        <div class="col-lg-6 left-cont-contact">
+                                            <div class="form-group input-gap">
+                                                <input class="form-control" onBlur={handleBlur} onChange={handleChange} value={values.firstname} type="text" name="firstname" id="w3lName" placeholder="First Name"
+                                                    required="" />
+                                            </div>
+                                            <div class="form-group input-gap">
+                                                <input class="form-control" onBlur={handleBlur} onChange={handleChange} value={values.lastname} type="text" name="lastname" id="w3lName" placeholder="Last Name"
+                                                    required="" />
+                                            </div>
+                                            <div class="form-group input-gap">
+                                                <input class="form-control" onBlur={handleBlur} onChange={handleChange} value={values.email} type="email" name="email" id="w3lSender" placeholder="Email"
+                                                    required="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 right-cont-contact">
+                                            <div class="form-group">
+                                                <textarea class="form-control" onBlur={handleBlur} onChange={handleChange} value={values.message} name="message" id="w3lMessage" placeholder="Write Message"
+                                                    required=""></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-2">
+                                        <button onClick={handleSubmit} class="btn action-button mt-3">Send Now</button>
+                                    </div>
+                                </form>
+                            )
+                        }}
+                    </Formik>
+                    
                 </div>
             </section>
         </PageLayout>

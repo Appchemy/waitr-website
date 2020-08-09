@@ -42,7 +42,7 @@ const HomeHero = () => {
                                             <div className="banner-text col-lg-5" style={{textAlign: 'left'}}>
                                                 <h5 dangerouslySetInnerHTML={{__html: header.frontmatter.title}} />
                                                 <p dangerouslySetInnerHTML={{__html: header.frontmatter.subtitle}} />
-                                                <Link to='/sign-up' className="btn logo-button top-margin">Get Started</Link>
+                                                <Link to='/signup' className="btn logo-button top-margin">Get Started</Link>
                                                 <h6 className="para">Try a <strong>free demo </strong>with all the features.</h6>
                                             </div>
                                             <div className="image-postion col-lg-7">

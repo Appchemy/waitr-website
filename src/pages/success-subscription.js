@@ -2,21 +2,21 @@ import React from 'react'
 import PageLayout from '../templates/page-layout'
 import { Link } from 'gatsby'
 
-const SuccessSignUp = () => {
+const SuccessSubscription = () => {
     return (
         <PageLayout pages={[
             {
-                title: 'Sign Up',
+                title: 'Subscription',
                 active: true
             }
         ]}>
-            <h1>Thank You</h1>
+            <h1 style={{marginBottom: 20}}>Thank you for subscribing</h1>
             <p>
-                The best time is now, and you know that. Congratulations on successfully signing up. We will give you a call to setup up your account. 
+                You will be the first to know of our latest product offering and news updates
             </p>
             <Link to='/' className="btn action-button mt-lg-5 mt-4 ">Go to home page</Link>
         </PageLayout>
     )
 }
 
-export default SuccessSignUp
+export default SuccessSubscription
