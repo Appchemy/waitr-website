@@ -1,5 +1,6 @@
 ---
 title: Artisans
-subtitle: Designed with your customers in mind.
+subtitle: Instantly send quotes and invoices via SMS and receive reviews from
+  your customers.
 image: /images/artisan.jpg
 ---

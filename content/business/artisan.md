@@ -3,4 +3,4 @@ title: Artisan
 position: 4
 icon: fa fa-hammer
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+With Waitr you can immediately create and send quotationsa and invoices to clients while on their premises and receive their reviews.
