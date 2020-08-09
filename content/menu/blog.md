@@ -2,5 +2,5 @@
 title: Blog
 type: internal
 target: /blog
-position: 2
+position: 5
 ---

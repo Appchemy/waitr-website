@@ -35,15 +35,17 @@ const Header = () => {
 
             return (
                 <section className=" w3l-header-4 header-sticky">
+                    <div style={{pointerEvents: isOpen ? 'all' : 'none'}}>
                     <Menu right isOpen={isOpen}>
                         <div style={{background: Theme.primaryColor, height: '100%'}} className='side-menu'>
                             <Link to="/">Home</Link>
                             <Link to='/pricing'>Pricing</Link>
-                            <Link to='/pricing'>Contact Us</Link>
+                            <Link to='/contact'>Contact Us</Link>
                             <Link to='/blog'>Blog</Link>
                             <a href='https://portal.waitr.co.za' rel='noreferrer' target='_blank'>Sign In</a>
                         </div>
                     </Menu>
+                    </div>
                 <header className="absolute-top">
                     <div className="container">
                         <nav className="navbar navbar-expand-lg navbar-light" >

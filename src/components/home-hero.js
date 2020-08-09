@@ -1,8 +1,8 @@
 import React from 'react'
 import { StaticQuery, Link, graphql } from 'gatsby'
-import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Img from "gatsby-image"
+import { Carousel } from 'antd';
 
 const HomeHero = () => {
     return <StaticQuery query={graphql`
@@ -30,16 +30,16 @@ const HomeHero = () => {
                 return item.node
             })
             return (
-                <div className="w3l-hero-headers-9" style={{background: '#4B4453', borderBottomRightRadius: '60%', height: 500}}>
-                    <Carousel dynamicHeight={true} interval={3000} showArrows={false} swipeable={false} autoPlay={false} infiniteLoop={true} stopOnHover={true} axis='vertical' showStatus={false}>
+                <div className="w3l-hero-headers-9" style={{background: '#4B4453', borderBottomRightRadius: '60%', paddingTop: 60}}>
+                    <Carousel autoplaySpeed={3000} dotPosition={"left"} vertical={true} showArrows={false} swipeable={false} autoplay={true} infiniteLoop={true} stopOnHover={true} axis='vertical' showStatus={false}>
                         {headers.map((header, index) => {
                             return (
-                                <section key={`header-${index}`} className="slide slide-one" style={{background: 'none', height: 500}}>
+                                <section key={`header-${index}`} className="slide slide-one" style={{background: 'none'}}>
                     
                                 <div className="container" style={{height: 300}}>
                                 
                                         <div className="row">
-                                            <div className="banner-text col-lg-5" style={{textAlign: 'left'}}>
+                                            <div className="banner-text col-lg-5" style={{textAlign: 'left', marginLeft: 20}}>
                                                 <h5 dangerouslySetInnerHTML={{__html: header.frontmatter.title}} />
                                                 <p dangerouslySetInnerHTML={{__html: header.frontmatter.subtitle}} />
                                                 <Link to='/signup' className="btn logo-button top-margin">Get Started</Link>
