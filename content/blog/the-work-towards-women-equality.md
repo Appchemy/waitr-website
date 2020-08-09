@@ -1,6 +1,6 @@
 ---
 title: The Work Towards Women Equality In Business Starts Now - A Fight For All Of Us
-image: /images/women-3443852_1920.jpg
+image: ../../static/images/women-3443852_1920.jpg
 date: 2020-08-09 12:00
 ---
 On this day, we commemorate the brave efforts of the 20000 women who marched to the Union buildings, in protest of the pass laws. This event was indeed a turning point towards the fight of a non-racial and non-sexist South Africa.
@@ -19,7 +19,7 @@ In the spirit of Women’s month, we interviewed two businesswomen who are makin
 
 ## Tshegofatso Malope
 
-![Picture of Tshegofatso Malope](/images/tshegofatso-2.jpg "Tshegofatso Malope - Diphofu Investment")
+![Picture of Tshegofatso Malope](../../static/images/tshegofatso-2.jpg "Tshegofatso Malope - Diphofu Investment")
 
 I'm a 32-year-old wife and mother of 3. My academic background is in psychology and education. I joined the farming sector 10 years ago, as a hobby and my passion kept the venture going to date. I consider myself to be a serial entrepreneur as I'm currently setting up ventures in other sectors of business such as property and general trading. I am self-motivated, a hard-working go-getter who is self-driven and goal-oriented. Above all else, I am a God-fearing child of God!
 
@@ -49,7 +49,7 @@ Your dreams are valid, chase them and don't look back. Fight for them and refuse
 
 ## Shabnam Hassim
 
-![A Picture of Shabnam Hassim ](/images/img-20200807-wa0030-3.jpg "Shabnam Hassim - Eazi Laundromat")
+![A Picture of Shabnam Hassim ](../../static/images/img-20200807-wa0030-3.jpg "Shabnam Hassim - Eazi Laundromat")
 
 I am a BCom graduate with many years of corporate experience. I left the corporate world to start my own business. I wanted flexibility in my times of work and owning my own business gives me that.
 

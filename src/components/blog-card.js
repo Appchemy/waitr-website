@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
 import { Theme } from '../styles/theme'
+import Img from 'gatsby-image'
 
 const BlogCard = ({
     blog
@@ -9,7 +10,7 @@ const BlogCard = ({
     return (
         <div className="col-lg-6 col-md-6 hh14-text margin-bottom" style={{marginBottom: 20}}>
             <div style={{paddingBottom: 20, borderColor: '#efefef', borderStyle: 'solid', borderWidth: 1, borderRadius: 10, overflow: 'hidden', height: '100%'}}>
-            <img src={blog.frontmatter.image} alt="product" style={{width: '100%', height: 200, objectFit: 'cover'}} />
+            <Img sizes={blog.frontmatter.image.childImageSharp.sizes} alt={blog.title} imgStyle={{width: '100%', height: 200, objectFit: 'cover'}} />
                     <div style={{paddingLeft: 20, paddingRight: 20}}>
                         <Link to={blog.fields.slug}><h4 style={{marginBottom: 0}}>{blog.frontmatter.title}</h4></Link>
                         <span style={{color: Theme.secondaryColor}}>

@@ -1,5 +1,5 @@
 ---
 title: Restaurants
 subtitle: Notifying your customers when their food is ready.
-image: /images/restaurant.jpg
+image: ../../static/images/restaurant.jpg
 ---
