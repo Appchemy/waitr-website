@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { slide as Menu } from 'react-burger-menu'
+
 
 export default function HTML(props) {
   return (
@@ -26,8 +26,8 @@ export default function HTML(props) {
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
-        <script src="/assets/js/jquery-3.3.1.min.js"></script>
-        <script src="/assets/js/bootstrap.min.js"></script>
+        {/* <script src="/assets/js/jquery-3.3.1.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script> */}
         {props.postBodyComponents}
 
         

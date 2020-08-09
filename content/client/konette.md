@@ -1,5 +1,5 @@
 ---
 title: Konette
 location: Pretoria North
-logo: /images/konette.jpg
+logo: ../../static/images/konette.jpg
 ---

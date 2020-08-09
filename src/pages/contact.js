@@ -107,7 +107,7 @@ const Contact = ({
                             handleSubmit
                         }) => {
                             return (
-                                <form class="w3layouts-contact-fm">
+                                <div class="w3layouts-contact-fm">
                                     <div class="row main-cont-sec">
                                         <div class="col-lg-6 left-cont-contact">
                                             <div class="form-group input-gap">
@@ -133,7 +133,7 @@ const Contact = ({
                                     <div class="form-group-2">
                                         <button onClick={handleSubmit} class="btn action-button mt-3">Send Now</button>
                                     </div>
-                                </form>
+                                </div>
                             )
                         }}
                     </Formik>

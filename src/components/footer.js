@@ -83,13 +83,13 @@ const Footer = () => {
                                                 handleSubmit
                                             }) => {
                                                 return (
-                                                    <form className="input-button">
+                                                    <div className="input-button">
                                                         <input type="email" name='email' onChange={handleChange} onBlur={handleBlur} value={values.email} className="form-control" placeholder="Your Email"
                                                             required="" />
                                                         <button onClick={handleSubmit} className="btn footer-button btn-secondary action-button">
                                                             Subscribe
                                                     </button>
-                                                    </form>
+                                                    </div>
                                                 )
                                             }}
                                         </Formik>

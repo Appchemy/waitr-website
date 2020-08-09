@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticQuery, Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
 const Features = () => {
     return (
@@ -15,8 +16,16 @@ const Features = () => {
                         html
                     }
                     }
+                },
+                file(relativePath: {eq: "b2.png"}) {
+                    childImageSharp {
+                        sizes(maxWidth: 500) {
+                            ...GatsbyImageSharpSizes_withWebp
+                        }
+                      }
                 }
             }`} render={data => {
+                const image = data.file
                 const features = data.allMarkdownRemark.edges.map(item => {
                     return item.node
                 }).sort((a, b) => {
@@ -48,7 +57,7 @@ const Features = () => {
                                         <Link to='/signup' className="btn action-button mt-lg-5 mt-4 ">Sign Up</Link>
                                     </div>
                                     <div className="col-lg-6">
-                                        <img src="assets/images/b2.png" alt="product" className="img-responsive " />
+                                        <Img sizes={image.childImageSharp.sizes} alt="Waitr Features" className="img-responsive " />
                                     </div>
                                 </div>
                             </div>

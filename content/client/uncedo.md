@@ -1,5 +1,5 @@
 ---
 title: Uncedo
 location: Pretoria, Menlyn
-logo: /images/uncedo.png
+logo: ../../static/images/uncedo.png
 ---
