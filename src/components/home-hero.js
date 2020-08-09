@@ -31,7 +31,7 @@ const HomeHero = () => {
             })
             return (
                 <div className="w3l-hero-headers-9" style={{background: '#4B4453', borderBottomRightRadius: '60%', paddingTop: 60}}>
-                    <Carousel autoplaySpeed={3000} dotPosition={"left"} vertical={true} showArrows={false} swipeable={false} autoplay={true} infiniteLoop={true} stopOnHover={true} axis='vertical' showStatus={false}>
+                    <Carousel autoplaySpeed={6000} dotPosition={"left"} vertical={true} showArrows={false} swipeable={false} autoplay={true} infiniteLoop={true} stopOnHover={true} axis='vertical' showStatus={false}>
                         {headers.map((header, index) => {
                             return (
                                 <section key={`header-${index}`} className="slide slide-one" style={{background: 'none'}}>
