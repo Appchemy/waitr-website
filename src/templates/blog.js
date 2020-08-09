@@ -3,11 +3,18 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import moment from 'moment'
 import { Theme } from "../styles/theme"
+import SEO from "../components/seo"
+import Img from "gatsby-image"
 
 const Page = ({
     data
 }) => {
     const post = data.markdownRemark
+    const disqusConfig = {
+      url: `https://reactfire.com${post.fields.slug}`,
+      identifier: post.fields.slug,
+      title: post.frontmatter.title,
+    }
 
     return (
         <PageLayout pages={[
@@ -20,9 +27,10 @@ const Page = ({
             active: true
           }
         ]}>
+          <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.image} />
             <div style={{padding: 10}}>
             
-            {post.frontmatter.image && <img src={post.frontmatter.image} alt={post.frontmatter.title} style={{width: '100%'}} />}
+            {post.frontmatter.image && <Img sizes={post.frontmatter.image.childImageSharp.sizes} alt={post.frontmatter.title} style={{width: '100%'}} />}
             <h1 style={{marginTop: 20}}>{post.frontmatter.title}</h1>
             <span style={{color: Theme.secondaryColor}}>
                   <i aria-label='Date' className='fas fa-calendar' style={{marginRight: 10}} />
@@ -48,8 +56,17 @@ export const query = graphql`
       html
       frontmatter {
         title
-        image
         date
+        image {
+          childImageSharp {
+            sizes(maxWidth: 1000) {
+                ...GatsbyImageSharpSizes_withWebp
+            }
+          }
+        }
+      }
+      fields {
+        slug
       }
       timeToRead
     }

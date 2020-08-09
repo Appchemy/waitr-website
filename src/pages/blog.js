@@ -2,6 +2,7 @@ import React from "react"
 import PageLayout from "../templates/page-layout"
 import { graphql } from "gatsby"
 import BlogCard from "../components/blog-card"
+import SEO from "../components/seo"
 
 const BlogPage = ({
   data
@@ -15,6 +16,8 @@ const BlogPage = ({
 
     return 1
   })
+
+  
 
   return (
     <PageLayout pages={[
@@ -50,7 +53,13 @@ export const query = graphql`
             }
             frontmatter {
               title
-              image
+              image {
+                childImageSharp {
+                  sizes(maxWidth: 1000) {
+                      ...GatsbyImageSharpSizes_withWebp
+                  }
+                }
+              }
               date
             }
             excerpt(format: PLAIN)

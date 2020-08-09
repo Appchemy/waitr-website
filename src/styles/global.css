@@ -8,12 +8,12 @@
 }
 
 .buttons-teams a {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -38,9 +38,17 @@
 }
 
 p {
-    margin-bottom: 30px !important;
+    margin-bottom: 30px;
+}
+
+.w3l-contact-info-main p {
+    margin-bottom: 5px;
 }
 
 h1 {
     margin-bottom: 30px;
+}
+
+.w3l-footers-20 {
+    margin-bottom: 5px !important;
 }

@@ -2,8 +2,7 @@ import React from 'react'
 import { StaticQuery, Link, graphql } from 'gatsby'
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import style from 'antd/dist/antd.css';
-// import '../styles/theme.less';
+import Img from "gatsby-image"
 
 const HomeHero = () => {
     return <StaticQuery query={graphql`
@@ -13,7 +12,13 @@ const HomeHero = () => {
                     node {
                         frontmatter {
                             title
-                            image
+                            image {
+                                childImageSharp {
+                                  sizes(maxWidth: 1000) {
+                                      ...GatsbyImageSharpSizes_withWebp
+                                  }
+                                }
+                              }
                             subtitle
                         }
                         html
@@ -41,7 +46,8 @@ const HomeHero = () => {
                                                 <h6 className="para">Try a <strong>free demo </strong>with all the features.</h6>
                                             </div>
                                             <div className="image-postion col-lg-7">
-                                                <img src={header.frontmatter.image} style={{height: 300, objectFit: 'cover', objectPosition: 'top'}} alt="product" className="img-responsive banner-images" />
+                                                {header.frontmatter.image && <Img sizes={header.frontmatter.image.childImageSharp.sizes} alt={header.frontmatter.title} style={{height: 300, objectFit: 'cover', objectPosition: 'top'}} alt="product" className="img-responsive banner-images" />}
+                                                {/* <img src={header.frontmatter.image}    /> */}
                                             </div>
                                         </div>
                                         

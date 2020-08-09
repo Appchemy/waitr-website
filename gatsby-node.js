@@ -43,7 +43,6 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     `)
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      console.log(node.fields.type)
       if (['blog', 'page'].indexOf(node.fields.type) != -1) {
         createPage({
           path: node.fields.slug,

@@ -6,8 +6,13 @@
 
 module.exports = {
   siteMetadata: {
+    titleTemplate: 'Waitr - %s',
+    description: 'Why Wait',
+    image: '/images/carwash.jpg',
+    twitterUsername: 'waitrpos',
     title: `Waitr`,
     siteUrl: 'https://www.waitr.co.za',
+    url: 'https://www.waitr.co.za',
     description: 'A POS designed for your customers',
     contact: {
       email: 'hello@waitr.co.za',
@@ -27,13 +32,48 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-136772918-1",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
         path: `${__dirname}/content`,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/static/images/`,
+        ignore: [`**/\.*`], // ignore files starting with a dot
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow"
+            }
+          },
+          `gatsby-remark-smartypants`
+        ]
+      }
+    },
     `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-less`,
@@ -53,6 +93,22 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Waitr`,
+        short_name: `Waitr`,
+        start_url: `/`,
+        background_color: `#4B4453`,
+        theme_color: `#4B4453`,
+        display: `minimal-ui`,
+        icon: `static/favicon.png`,
+      },
+    },
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-sitemap`
   ],
 }
