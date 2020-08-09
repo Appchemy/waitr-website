@@ -36,7 +36,7 @@ const HomeHero = () => {
                             return (
                                 <section key={`header-${index}`} className="slide slide-one" style={{background: 'none'}}>
                     
-                                <div className="container" style={{height: 300}}>
+                                <div className="container">
                                 
                                         <div className="row">
                                             <div className="banner-text col-lg-5" style={{textAlign: 'left', marginLeft: 20}}>
@@ -45,7 +45,7 @@ const HomeHero = () => {
                                                 <Link to='/signup' className="btn logo-button top-margin">Get Started</Link>
                                                 <h6 className="para">Try a <strong>free demo </strong>with all the features.</h6>
                                             </div>
-                                            <div className="image-postion col-lg-7">
+                                            <div className="image-postion col-lg-6">
                                                 {header.frontmatter.image && <Img sizes={header.frontmatter.image.childImageSharp.sizes} alt={header.frontmatter.title} imgStyle={{height: 300, objectFit: 'cover', objectPosition: 'top', borderRadius: 10}} alt="product" className="img-responsive banner-images" />}
                                                 {/* <img src={header.frontmatter.image}    /> */}
                                             </div>
