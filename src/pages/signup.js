@@ -47,7 +47,9 @@ const Pricing = () => {
             <h1>Sign Up</h1>
             <p><strong>#WhyWait</strong> for better days? Sign up for a <strong>FREE</strong> trial to enjoy 30 days of no admin work while Waitr helps you to improve your business. No need to take our word for it, let your customers give you feedback, and if it doesn’t work out, we will let you run your business as you used to. </p>
             <div style={{marginTop: 20}}>
-            <Formik initialValues={formValues}>
+            <Formik initialValues={formValues} onSubmit={values => {
+                setFormValues(values)
+            }}>
                 {({
                     values,
                     handleBlur,
@@ -55,8 +57,7 @@ const Pricing = () => {
                     handleSubmit
                 }) => {
                     return (
-                       
-                        }} netlify-honeypot="bot-field" class="w3layouts-contact-fm" data-netlify="true" name="Sign Up" netlify>
+                        <div>
                             <input method='POST' type="hidden" name="form-name" value="Contact Form" />
                             <div class="row main-cont-sec">
                                 <div class="col-lg-6 left-cont-contact">
@@ -86,6 +87,7 @@ const Pricing = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     )
                 }}
             </Formik>
