@@ -40,7 +40,7 @@ const Page = ({
                   <span>{post.timeToRead} min read</span>
               </span>
 
-            <div style={{
+            <div className='blog-post' style={{
                 marginTop: 20,
                 overflow: 'hidden'
             }} dangerouslySetInnerHTML={{ __html: post.html }} />

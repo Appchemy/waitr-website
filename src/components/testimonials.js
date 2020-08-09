@@ -6,7 +6,7 @@ const Testimonials = () => {
         <section className="w3l-clients">
             <div className="main-w3">
                 <div className="container">
-                    <Title>What out customers have to say</Title>
+                    <Title>What our customers have to say</Title>
 
                     <div className="row">
                         <div className="col-lg-6 col-md-6 hh14-text margin-bottom">
