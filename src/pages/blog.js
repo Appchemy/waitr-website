@@ -26,6 +26,7 @@ const BlogPage = ({
         active: true
       }
     ]}>
+       <SEO title='Blog' description='Blog' />
         <h1>Blog Posts</h1>
           <div className="main-w3">
             <div className="container">

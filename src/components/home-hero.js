@@ -46,7 +46,7 @@ const HomeHero = () => {
                                                 <h6 className="para">Try a <strong>free demo </strong>with all the features.</h6>
                                             </div>
                                             <div className="image-postion col-lg-6">
-                                                {header.frontmatter.image && <Img sizes={header.frontmatter.image.childImageSharp.sizes} alt={header.frontmatter.title} imgStyle={{height: 300, objectFit: 'cover', objectPosition: 'top', borderRadius: 10}} alt="product" className="img-responsive banner-images" />}
+                                                {header.frontmatter.image && <Img sizes={header.frontmatter.image.childImageSharp.sizes} alt={header.frontmatter.title} imgStyle={{height: 300, objectFit: 'cover', objectPosition: 'top', borderRadius: 10}} className="img-responsive banner-images" />}
                                                 {/* <img src={header.frontmatter.image}    /> */}
                                             </div>
                                         </div>

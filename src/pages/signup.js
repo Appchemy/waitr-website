@@ -1,20 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import PageLayout from '../templates/page-layout'
 import { navigate } from 'gatsby'
 import { Formik } from 'formik'
 
 const Pricing = () => {
-    // const [contactForm, setContactForm] = useState(null)
-    const [formValues, setFormValues] = useState({
+    const [formValues] = useState({
         firstname: '',
         lastname: '',
         phone: '',
         email: ''
     })
-
-    useEffect(() => {
-        // setContactForm(React.createRef())
-    }, [])
 
     const encode = data => {
         return Object.keys(data)
@@ -23,7 +18,6 @@ const Pricing = () => {
     }
 
     const submit = values => {
-        // const form = contactForm
         fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
