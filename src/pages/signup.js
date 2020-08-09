@@ -57,7 +57,7 @@ const Pricing = () => {
                             if (ref) {
                                 setContactForm(ref)
                             }
-                        }} method="POST" netlify-honeypot="bot-field" class="w3layouts-contact-fm" data-netlify="true" name="Sign Up" netlify>
+                        }} netlify-honeypot="bot-field" class="w3layouts-contact-fm" data-netlify="true" name="Sign Up" netlify>
                             <input type="hidden" name="form-name" value="Contact Form" />
                             <div class="row main-cont-sec">
                                 <div class="col-lg-6 left-cont-contact">
