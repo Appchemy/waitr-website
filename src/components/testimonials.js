@@ -19,6 +19,7 @@ const Testimonials = () => {
                         }
                       }
                     comment
+                    occupation
                 }
             }
             }
