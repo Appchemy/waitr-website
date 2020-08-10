@@ -1,6 +1,6 @@
 ---
 title: The Work Towards Women Equality In Business Starts Now - A Fight For All Of Us
-image: ../../static/images/women-3443852_1920.jpg
+image: ../../static/images/women-in-entrepreneurship.png
 date: 2020-08-09 12:00
 tags: ["Women's Day", "Women", "Interview", "Waitrpos"]
 ---

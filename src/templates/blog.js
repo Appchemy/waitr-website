@@ -76,7 +76,7 @@ export const query = graphql`
         date
         image {
           childImageSharp {
-            sizes(maxWidth: 1000) {
+            sizes(maxWidth: 1200, quality: 80) {
                 ...GatsbyImageSharpSizes_withWebp
                 src
             }
