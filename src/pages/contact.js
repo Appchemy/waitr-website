@@ -14,7 +14,7 @@ const Contact = ({
             .join("&")
     }
 
-    const send = values => {
+    const send = ({values}) => {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },

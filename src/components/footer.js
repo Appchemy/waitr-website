@@ -51,7 +51,7 @@ const Footer = () => {
                     .join("&")
             }
 
-            const subscribe = values => {
+            const subscribe = ({values}) => {
                 fetch("/", {
                     method: "POST",
                     headers: { "Content-Type": "application/x-www-form-urlencoded" },
