@@ -50,8 +50,9 @@ const Pricing = () => {
                     handleSubmit
                 }) => {
                     return (
+                        <form data-netlify="true" name="Sign Up">
                         <div>
-                            <input method='POST' type="hidden" name="form-name" value="Contact Form" />
+                            <input method='POST' type="hidden" name="form-name" value="Sign Up" />
                             <div class="row main-cont-sec">
                                 <div class="col-lg-6 left-cont-contact">
                                     <div class="form-group input-gap">
@@ -81,6 +82,7 @@ const Pricing = () => {
                                 </div>
                             </div>
                         </div>
+                        </form>
                     )
                 }}
             </Formik>

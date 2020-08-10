@@ -83,13 +83,16 @@ const Footer = () => {
                                                 handleSubmit
                                             }) => {
                                                 return (
-                                                    <div className="input-button">
-                                                        <input type="email" name='email' onChange={handleChange} onBlur={handleBlur} value={values.email} className="form-control" placeholder="Your Email"
-                                                            required="" />
-                                                        <button onClick={handleSubmit} className="btn footer-button btn-secondary action-button">
-                                                            Subscribe
-                                                    </button>
-                                                    </div>
+                                                    <form data-netlify="true" name="Sign Up">
+                                                        <input method='POST' type="hidden" name="form-name" value="Sign Up" />
+                                                        <div className="input-button">
+                                                            <input type="email" name='email' onChange={handleChange} onBlur={handleBlur} value={values.email} className="form-control" placeholder="Your Email"
+                                                                required="" />
+                                                            <button onClick={handleSubmit} className="btn footer-button btn-secondary action-button">
+                                                                Subscribe
+                                                        </button>
+                                                        </div>
+                                                    </form>
                                                 )
                                             }}
                                         </Formik>
