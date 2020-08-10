@@ -17,6 +17,8 @@ export default function HTML(props) {
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap" rel="stylesheet"></link>
         <link href="/assets/css/all.css" rel="stylesheet"></link>
+
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/8d1b85d203eaf5ea28eb01af7/8db75d3e6faaf77e0e6309c4c.js");</script>
       </head>
       <body {...props.bodyAttributes}>
       
