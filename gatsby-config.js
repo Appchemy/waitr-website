@@ -116,6 +116,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {

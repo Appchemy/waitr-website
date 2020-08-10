@@ -6,11 +6,14 @@ import { Theme } from "../styles/theme"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
 import { Disqus } from 'gatsby-plugin-disqus'
+import Share from "../components/share"
 
 const Page = ({
     data
 }) => {
     const post = data.markdownRemark
+    const site = data.site.siteMetadata
+    const twitterHandle = site.socialMedia.twitter
     const disqusConfig = {
       url: `https://waitr.co.za${post.fields.slug}`,
       identifier: post.fields.slug,
@@ -46,6 +49,17 @@ const Page = ({
             }} dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
 
+            <Share
+              socialConfig={{
+                twitterHandle,
+                config: {
+                  url: `${site.url}${post.fields.slug}`,
+                  title: post.frontmatter.title,
+                },
+              }}
+              tags={post.frontmatter.tags}
+            />
+
             <Disqus config={disqusConfig} />
         </PageLayout>
     )
@@ -72,6 +86,9 @@ export const query = graphql`
         slug
       }
       timeToRead
-    }
+    },
+    site {
+			siteMetadata { url, socialMedia { twitter } },
+		},
   }
 `

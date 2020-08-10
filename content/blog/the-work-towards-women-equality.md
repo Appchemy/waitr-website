@@ -2,6 +2,7 @@
 title: The Work Towards Women Equality In Business Starts Now - A Fight For All Of Us
 image: ../../static/images/women-3443852_1920.jpg
 date: 2020-08-09 12:00
+tags: ["Women's Day", "Women", "Interview", "Waitrpos"]
 ---
 On this day, we commemorate the brave efforts of the 20000 women who marched to the Union buildings, in protest of the pass laws. This event was indeed a turning point towards the fight of a non-racial and non-sexist South Africa.
 
