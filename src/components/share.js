@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faTwitter, faLinkedin, faWhatsapp, faRedditAlien } from '@fortawesome/free-brands-svg-icons'
 import {
 	FacebookShareButton,
 	LinkedinShareButton,
@@ -22,31 +22,31 @@ const Share = ({ socialConfig, tags }) => (
         </div>
 		<FacebookShareButton url={socialConfig.config.url} className="button is-outlined is-rounded facebook" >
 			<span className="icon">
-				<FontAwesomeIcon icon={['fab', 'facebook-f']} />
+				<FontAwesomeIcon icon={faFacebookF} />
 			</span>
 			<span className="text">Facebook</span>
 		</FacebookShareButton>
 		<TwitterShareButton url={socialConfig.config.url} className="button is-outlined is-rounded twitter" title={socialConfig.config.title} via={socialConfig.twitterHandle.split('@').join('')} hashtags={tags} >
 			<span className="icon">
-				<FontAwesomeIcon icon={['fab', 'twitter']} />
+				<FontAwesomeIcon icon={faTwitter} />
 			</span>
 			<span className="text">Twitter</span>
 		</TwitterShareButton>
 		<LinkedinShareButton url={socialConfig.config.url} className="button is-outlined is-rounded linkedin" title={socialConfig.config.title} >
 			<span className="icon">
-				<FontAwesomeIcon icon={['fab', 'linkedin-in']} />
+				<FontAwesomeIcon icon={faLinkedin} />
 			</span>
 			<span className="text">LinkedIn</span>
 		</LinkedinShareButton>
 		<RedditShareButton url={socialConfig.config.url} className="button is-outlined is-rounded reddit" title={socialConfig.config.title} >
 			<span className="icon">
-				<FontAwesomeIcon icon={['fab', 'reddit-alien']} />
+				<FontAwesomeIcon icon={faRedditAlien} />
 			</span>
 			<span className="text">Reddit</span>
 		</RedditShareButton>
 		<WhatsappShareButton url={socialConfig.config.url} className="button is-outlined is-rounded whatsapp" title={socialConfig.config.title} >
 			<span className="icon">
-				<FontAwesomeIcon icon={['fab', 'whatsapp']} />
+				<FontAwesomeIcon icon={faWhatsapp} />
 			</span>
 			<span className="text">WhatsApp</span>
 		</WhatsappShareButton>
