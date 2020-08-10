@@ -31,7 +31,7 @@ const Page = ({
             active: true
           }
         ]}>
-          <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.image} />
+          <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={`${site.url}${post.frontmatter.image.childImageSharp.sizes.src}`} />
             <div style={{padding: 10}}>
             
             {post.frontmatter.image && <Img sizes={post.frontmatter.image.childImageSharp.sizes} alt={post.frontmatter.title} style={{width: '100%'}} />}
@@ -78,6 +78,7 @@ export const query = graphql`
           childImageSharp {
             sizes(maxWidth: 1000) {
                 ...GatsbyImageSharpSizes_withWebp
+                src
             }
           }
         }
