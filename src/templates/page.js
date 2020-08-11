@@ -1,12 +1,8 @@
 import PageLayout from "./page-layout"
 import React from 'react'
 import { graphql } from 'gatsby'
-import moment from 'moment'
-import { Theme } from "../styles/theme"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-import { Disqus } from 'gatsby-plugin-disqus'
-import Share from "../components/share"
 
 const Page = ({
     data
