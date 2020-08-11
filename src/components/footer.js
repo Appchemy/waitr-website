@@ -1,8 +1,14 @@
-import React from 'react'
-import { StaticQuery, Link, graphql, navigate } from 'gatsby'
+import React, { useState } from 'react'
+import { StaticQuery, Link, graphql } from 'gatsby'
 import { Formik } from 'formik'
+import addToMailchimp from 'gatsby-plugin-mailchimp'
+import Loader from './loader'
 
 const Footer = () => {
+    const [isSubscribing, setIsSubscribing] = useState(false)
+    const [subscribingError, setSubscribingError] = useState(null)
+    const [hasSubscribed, setHasSubscribed] = useState(false)
+
     return <StaticQuery query={graphql`
         query GetMenuForFooter {
             allMarkdownRemark(filter: {fields: {type: {eq: "menu"}}}) {
@@ -45,23 +51,32 @@ const Footer = () => {
                 return 1
             })
 
-            const encode = data => {
-                return Object.keys(data)
-                    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-                    .join("&")
-            }
+            // const encode = data => {
+            //     return Object.keys(data)
+            //         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            //         .join("&")
+            // }
 
-            const subscribe = ({values}) => {
-                fetch("/", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                    body: encode({
-                        "form-name": 'Subscription',
-                        ...values,
-                    }),
+            const subscribe = (values) => {
+                setIsSubscribing(true)
+                setSubscribingError(null)
+                addToMailchimp(values.email).then(result => {
+                    setHasSubscribed(true)
+                    setIsSubscribing(false)
+                }).catch(err => {
+                    setSubscribingError(err)
+                    setIsSubscribing(false)
                 })
-                    .then(() => navigate("/success-subscription"))
-                    .catch(error => alert(error))
+                // fetch("/", {
+                //     method: "POST",
+                //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                //     body: encode({
+                //         "form-name": 'Subscription',
+                //         ...values,
+                //     }),
+                // })
+                //     .then(() => navigate("/success-subscription"))
+                //     .catch(error => alert(error))
             }
 
             return (
@@ -86,12 +101,17 @@ const Footer = () => {
                                                     <form data-netlify="true" name="Sign Up">
                                                         <input method='POST' type="hidden" name="form-name" value="Sign Up" />
                                                         <div className="input-button">
-                                                            <input type="email" name='email' onChange={handleChange} onBlur={handleBlur} value={values.email} className="form-control" placeholder="Your Email"
+                                                            <input disabled={isSubscribing} type="email" name='email' onChange={handleChange} onBlur={handleBlur} value={values.email} className="form-control" placeholder="Your Email"
                                                                 required="" />
-                                                            <button onClick={handleSubmit} className="btn footer-button btn-secondary action-button">
+                                                            <button disabled={isSubscribing} onClick={handleSubmit} className="btn footer-button btn-secondary action-button">
                                                                 Subscribe
-                                                        </button>
+                                                            </button>
+                                                            <div style={{marginLeft: 10}}>
+                                                            {isSubscribing && <Loader />}
+                                                            </div>
                                                         </div>
+                                                        {hasSubscribed && <p style={{color: 'green', marginTop: 10}}>Thank you for subscribing</p>}
+                                                        {subscribingError && <p style={{color: 'red', marginTop: 10}}>An error occurred while subscribing. Please try again</p>}
                                                     </form>
                                                 )
                                             }}

@@ -122,6 +122,13 @@ module.exports = {
       options: {
         ignore: ['/src/styles/carousel.css']
       }
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://waitr.us17.list-manage.com/subscribe/post?u=8d1b85d203eaf5ea28eb01af7&amp;id=daa7a96af2', // string; add your MC list endpoint here; see instructions below
+          timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      }
     }
   ],
 }
