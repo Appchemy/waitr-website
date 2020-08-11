@@ -1,7 +1,7 @@
 ---
 title: Women's Month Campaign
 ---
-Hi Boss Lady, please fill in the form to stand a chance to WIN 2 months free Waitr Subscription and a futher 10% off for 12 months. 
+Hi Boss Lady, please fill in the form to stand a chance to WIN 2 months FREE Waitr Subscription and a futher 10% off for 12 months. 
 
 <iframe
     id="JotFormIFrame-202232773780050"
