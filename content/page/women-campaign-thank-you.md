@@ -1,5 +1,4 @@
 ---
-title: Thank You
+title: Thank You for your submission
 ---
-
-Thank you for your submission
+Wishing you all the best!
