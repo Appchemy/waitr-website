@@ -53,6 +53,16 @@ exports.createPages = async ({ graphql, actions }) => {
             slug: node.fields.slug,
           },
         })
+      } else if (['page'].indexOf(node.fields.type) != -1) {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/page.js`),
+          context: {
+            // Data passed to context is available
+            // in page queries as GraphQL variables.
+            slug: node.fields.slug,
+          },
+        })
       }
     })
   }
