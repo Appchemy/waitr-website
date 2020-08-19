@@ -3,6 +3,8 @@ import { StaticQuery, Link, graphql } from 'gatsby'
 import { Formik } from 'formik'
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 import Loader from './loader'
+import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => {
     const [isSubscribing, setIsSubscribing] = useState(false)
@@ -141,10 +143,10 @@ const Footer = () => {
                                 </div>
                                 <div className="grids-content col-lg-3 col-md-3 col-sm-6">
                                     <h4>Information</h4>
-                                    <a href="mailto:hello@example.com">
+                                    <a href={`mailto:${site.contact.email}`}>
                                         <p className="contact-text-sub contact-para3">{site.contact.email}</p>
                                     </a>
-                                    <a href="tel:+7-800-999-800">
+                                    <a href={`tel:${site.contact.phone}`}>
                                         <p className="contact-text-sub contact-para3">{site.contact.phone}</p>
                                     </a>
                                     {site.contact.address.map((address, index) => {
@@ -157,10 +159,10 @@ const Footer = () => {
                                 <div className="col-lg-7 col-md-7 col-12 copyright-grid ">
                                     <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 10 }}>
                                         <div className="buttons-teams">
-                                            <a href={`https://www.facebook.com/${site.socialMedia.facebook}`} rel='noreferrer' target='_blank'><i aria-label="Facebook" className="facebook social-icon fab fa-facebook-f" aria-hidden="true" /> </a>
-                                            <a href={`https://www.twitter.com/${site.socialMedia.twitter}`} rel='noreferrer' target='_blank'><i aria-label="Twitter" className="twitter social-icon fab fa-twitter" aria-hidden="true" /> </a>
-                                            <a href={`https://www.instagram.com/${site.socialMedia.instagram}`} rel='noreferrer' target='_blank'><i aria-label="Instagram" className="instagram social-icon fab fa-instagram" aria-hidden="true" /> </a>
-                                            <a href={`https://www.linkedin.com/${site.socialMedia.linkedin}`} rel='noreferrer' target='_blank'><i aria-label="Linkedin" className="linkedin social-icon fab fa-linkedin" aria-hidden="true" /> </a>
+                                            <a href={`https://www.facebook.com/${site.socialMedia.facebook}`} rel='noreferrer' target='_blank'><span className="facebook social-icon"><FontAwesomeIcon icon={faFacebookF} color='white' /></span> </a>
+                                            <a href={`https://www.twitter.com/${site.socialMedia.twitter}`} rel='noreferrer' target='_blank'><span className="twitter social-icon" aria-hidden="true"><FontAwesomeIcon icon={faTwitter} color='white' /></span> </a>
+                                            <a href={`https://www.instagram.com/${site.socialMedia.instagram}`} rel='noreferrer' target='_blank'><span aria-label="Instagram" className="instagram social-icon" aria-hidden="true"><FontAwesomeIcon icon={faInstagram} color='white' /></span> </a>
+                                            {/* <a href={`https://www.linkedin.com/${site.socialMedia.linkedin}`} rel='noreferrer' target='_blank'><i aria-label="Linkedin" className="linkedin social-icon fab fa-linkedin" aria-hidden="true" /> </a> */}
                                         </div>
                                     </div>
                                     <p className="copy-footer-29">© 2020 WaitrPOS. All rights reserved

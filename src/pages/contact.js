@@ -1,7 +1,9 @@
 import React from 'react'
 import PageLayout from '../templates/page-layout'
 import { Formik } from 'formik'
-import { navigate } from 'gatsby'
+import { navigate, graphql } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = ({
     data
@@ -70,10 +72,10 @@ const Contact = ({
                                     <h4>Social Media</h4>
                                     <div style={{display: 'flex', justifyContent: 'center'}}>
                                         <div className="buttons-teams" style={{margin: 0, padding: 0}}>
-                                            <a href={`https://www.facebook.com/${site.socialMedia.facebook}`} rel='noreferrer' target='_blank'><i aria-label="Facebook" className="facebook social-icon fab fa-facebook-f" aria-hidden="true" /> </a>
-                                            <a href={`https://www.twitter.com/${site.socialMedia.twitter}`} rel='noreferrer' target='_blank'><i aria-label="Twitter" className="twitter social-icon fab fa-twitter" aria-hidden="true" /> </a>
-                                            <a href={`https://www.instagram.com/${site.socialMedia.instagram}`} rel='noreferrer' target='_blank'><i aria-label="Instagram" className="instagram social-icon fab fa-instagram" aria-hidden="true" /> </a>
-                                            <a href={`https://www.linkedin.com/${site.socialMedia.linkedin}`} rel='noreferrer' target='_blank'><i aria-label="Linkedin" className="linkedin social-icon fab fa-linkedin" aria-hidden="true" /> </a>
+                                        <a href={`https://www.facebook.com/${site.socialMedia.facebook}`} rel='noreferrer' target='_blank'><span className="facebook social-icon"><FontAwesomeIcon icon={faFacebookF} color='white' /></span> </a>
+                                            <a href={`https://www.twitter.com/${site.socialMedia.twitter}`} rel='noreferrer' target='_blank'><span className="twitter social-icon" aria-hidden="true"><FontAwesomeIcon icon={faTwitter} color='white' /></span> </a>
+                                            <a href={`https://www.instagram.com/${site.socialMedia.instagram}`} rel='noreferrer' target='_blank'><span aria-label="Instagram" className="instagram social-icon" aria-hidden="true"><FontAwesomeIcon icon={faInstagram} color='white' /></span> </a>
+                                            {/* <a href={`https://www.linkedin.com/${site.socialMedia.linkedin}`} rel='noreferrer' target='_blank'><i aria-label="Linkedin" className="linkedin social-icon fab fa-linkedin" aria-hidden="true" /> </a> */}
                                         </div>
                                     </div>
 
