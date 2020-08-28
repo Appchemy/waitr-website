@@ -1,6 +1,7 @@
 ---
 title: 5 Funding Programmes Aimed At Developing Women-led Businesses
 image: /images/6143.jpg
+date: 2020-08-28 18:00
 ---
 Africa boasts as a world leader when it comes to women in entrepreneurship, and we continue to see a rise of programmes and intervention from both the Government and private sectors to support women in entrepreneurship.
 
