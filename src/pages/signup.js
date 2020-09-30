@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import PageLayout from '../templates/page-layout'
 import { navigate } from 'gatsby'
 import { Formik } from 'formik'
+import Axios from 'axios'
 
 const Pricing = () => {
     const [formValues] = useState({
@@ -18,6 +19,7 @@ const Pricing = () => {
     }
 
     const submit = values => {
+        Axios.post()
         fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
