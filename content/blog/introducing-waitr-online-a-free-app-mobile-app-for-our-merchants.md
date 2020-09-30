@@ -1,5 +1,5 @@
 ---
-title: Introducing Waitr Online - A free App Mobile App For Our Merchants
+title: Introducing Waitr Online - A free Mobile App For Our Merchants
 date: 2020-09-29T11:14:47.726Z
 image: /images/waitr-mobile-web-app-1-.png
 ---
