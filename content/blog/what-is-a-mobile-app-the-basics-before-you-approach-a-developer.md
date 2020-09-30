@@ -1,7 +1,7 @@
 ---
-title: What Is A Mobile App| The Basics Before You Approach A Developer
-image: ../../static/images/app-1013616_1920.jpg
+title: What Is A Mobile App | The Basics Before You Approach A Developer
 date: 2020-09-01 12:00
+image: ../../static/images/app-1013616_1920.jpg
 ---
 In January 2020, statistics showed that 34,93 million of the 36,54 million internet users in South Africa, were mobile internet users. Mobile applications have transformed the way the world operates. Do you want to order food, book a cleaning service, do your banking, or communicate with people on the other side of the world? Just pop onto your iStore or Google App Store and download an app for that.
 
