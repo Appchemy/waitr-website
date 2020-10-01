@@ -7,7 +7,7 @@ Introducing Waitr Online
 
 We meant it when we said that Waitr is a solution for both you and your customer. One of our solutions to helping your customers is our Free Mobile App. Yep, that's correct! You have the option of getting a free mobile application with any of our subscription packages. And no, there is no catch to this.
 
-This is our way of bringing a solution to you and your customers. With the virus still roaming around, we need to make use of innovative and alternative ways of carrying on with business with as little contact as possible. Waitr online allows your customers access to your services while in the comfort of their homes. You can read more on the benefits of having a mobile application here.
+This is our way of bringing a solution to you and your customers. With the virus still roaming around, we need to make use of innovative and alternative ways of carrying on with business with as little contact as possible. Waitr online allows your customers access to your services while in the comfort of their homes. You can read more on the benefits of having a mobile application [here](https://www.waitr.co.za/does-your-business-need-an-app-benefits-of-a-mobile-app/).
 
 We value time and would do anything possible to give you the best services with the least effort required from your side. We aim to give your customers the smoothest ordering and booking platform, so we designed a Progressive Web App that is:
 
