@@ -1,7 +1,7 @@
 ---
 title: Does Your Business Need An App? | Benefits Of A Mobile App
 date: 2020-09-25T20:10:17.639Z
-image: /images/app-1013616_1920.jpg
+image: ../../static/images/app-1013616_1920.jpg
 ---
 We’ve looked at what a mobile application is in our last post. Now you probably want to know how a mobile application will benefit your business.
 
