@@ -71,3 +71,7 @@ h1 {
     font-size: '2.5em';
     margin-bottom: 10px;
 }
+
+.container li {
+    display: list-item;
+}
