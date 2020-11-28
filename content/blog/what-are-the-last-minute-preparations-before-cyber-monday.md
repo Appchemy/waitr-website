@@ -1,5 +1,5 @@
 ---
-title: "Last Minute Preparations Before Cyber Monday "
+title: "Last Minute Preparations For Cyber Monday "
 date: 2020-11-24T08:18:08.090Z
 image: ../../static/images/cyber-monday-5156555_1920.jpg
 ---
