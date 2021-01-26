@@ -41,7 +41,7 @@ Read more: [12 Survival Tips for Small Businesses in 2021](https://www.sage.com/
 
 ![Kauai Subscriptions](../../static/images/screenshot-2021-01-26-at-23.06.41.png "Kauai Subscriptions")
 
-Health food restaurant, Kauai, has taken the lead in its industry in offering a subscription service. Customers can redeem up to 240 coffees over 30 days for just R299. Customers get value on organic coffees and smoothies while the business gets to build loyal relationships which in return will bring in recurring revenue.
+Health food restaurant, [Kauai,](https://www.instagram.com/p/CKOIX8jH9x2/) has taken the lead in its industry in offering a subscription service. Customers can redeem up to 240 coffees over 30 days for just R299. Customers get value on organic coffees and smoothies while the business gets to build loyal relationships which in return will bring in recurring revenue.
 
 ## Be Persistent
 
