@@ -31,8 +31,6 @@ As much as closing down was a bit of a challenge, it did open up new ventures an
 
 Even during “normal times”, small businesses don’t always have the resources to hire enough staff members to fill up all the required position for a business to run smoothly. Now we find ourselves dealing with constant sick leaves and having to let go of some staff members either due to death or lack of financial resources to keep them there. Whatever the reason may be, you do not want to find yourself juggling 20 tasks at the same time while there is plenty of software that can automate some business process. For instance, Waitr will generate a financial report for you, saving you time and the risk of human error.
 
-
-
 ## Set up subscription-paid services
 
 Lauren Pearson advises business owners to offer subscription-paid services if their business model allows for it. This is a great way to ensure income over a long period and for the client to receive products or services without having to go through, sometimes lengthy payment process.
@@ -45,10 +43,10 @@ Read more: [12 Survival Tips for Small Businesses in 2021](https://www.sage.com/
 
 Health food restaurant, Kauai, has taken the lead in its industry in offering a subscription service. Customers can redeem up to 240 coffees over 30 days for just R299. Customers get value on organic coffees and smoothies while the business gets to build loyal relationships which in return will bring in recurring revenue.
 
-
-
 ## Be Persistent
 
-We asked Melvin Musehani, founder of Waitr, to weigh in and this is what he had to say: “If something works once, it has a possibility to work again, so keep doing that thing for the business to grow.”
+We asked Melvin Musehani, founder of Waitr, to weigh in and this is what he had to say:
+
+> “If something works once, it has a possibility to work again, so keep doing that thing for the business to grow.”
 
 His tip to business owners is to carry on with whatever proves to be growing the business until they find a better method that will replicate the results of what they have done. As a founder, you would want to replicate parts of yourself through your employees who would be persistent. Small businesses don’t always have the luxury of having employees, so your best solution as an owner, is to act as a sub employee within yourself and be consistent with that action because that is what the employee was going to do.
