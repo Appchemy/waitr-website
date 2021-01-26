@@ -13,7 +13,7 @@ We were looking forward to economic recovery and the beginning of a healing proc
 
 These are truly unprecedented times and a very difficult time to keep any business afloat. In light of all the uncertainties surrounding the pandemic, we have sought out 5 survival tips that we think businesses will need to survive.
 
-## Be ready to adapt to anything
+## Be Ready To Adapt To Anything
 
 Unprecedented times carry a lot of uncertainty as we step into a whole different world than the one that we were used to. We went from dressing up head to toe for meetings to rocking up for Zoom meetings with a whole different definition of semi-formal. The screen became our primary platform for interacting with different stakeholders and all business owners were forced to adapt or be at risk of losing customers and ultimately, run out of business. It is war and the only ones who will come out alive, are those who can adapt quickly.
 
@@ -27,11 +27,11 @@ One example of a business that had to adapt after the first announcement of a Na
 
 As much as closing down was a bit of a challenge, it did open up new ventures and came with benefits as they can now reach people beyond the Cape Town borders. Furthermore, they could stay in business and help their members to get through these challenging times.
 
-## Automate business processes that are eating up your time
+## Automate Business Processes That Are Eating Up Your Time
 
 Even during “normal times”, small businesses don’t always have the resources to hire enough staff members to fill up all the required position for a business to run smoothly. Now we find ourselves dealing with constant sick leaves and having to let go of some staff members either due to death or lack of financial resources to keep them there. Whatever the reason may be, you do not want to find yourself juggling 20 tasks at the same time while there is plenty of software that can automate some business process. For instance, Waitr will generate a financial report for you, saving you time and the risk of human error.
 
-## Set up subscription-paid services
+## Set Up Subscription-Paid Services
 
 Lauren Pearson advises business owners to offer subscription-paid services if their business model allows for it. This is a great way to ensure income over a long period and for the client to receive products or services without having to go through, sometimes lengthy payment process.
 
