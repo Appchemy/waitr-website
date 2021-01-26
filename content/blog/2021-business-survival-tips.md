@@ -1,5 +1,5 @@
 ---
-title: 2021 Business Survival Tips
+title: Survival Tips For Small Businesses In 2021
 date: 2021-01-26T20:44:42.390Z
 image: ../../static/images/paper-3376854_1920.jpg
 ---
