@@ -25,7 +25,7 @@ You do not want to find yourself stuck with a shortage of products because the p
 
 A POS allows you to access and control your business from anywhere. This is a very important feature for businesses, now more than ever. Small business owners need to have access to their financial and operational data regardless of where they are. This will enable them to give better customer service. 
 
-#### Flexibility 
+#### Device Flexibility 
 
 Additionally to having access and control from anywhere, a cloud-based Pos system gives you the flexibility of accessing it on any device that has a browser. This means that employees are not limited to using one central access for everyone. This also removes the geographical limitations of a normal pos, you can do business anywhere, at any given time on any device at hand. Therefore you have the freedom to choose the type of device that you would want to use based on your budget. This is a great advantage for a small business that might not have the capital to purchase expensive equipment.
 
