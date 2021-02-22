@@ -7,7 +7,7 @@ As a small business owner, you might have heard or read about Point-of-Sale Syst
 
 But what exactly is a Point of sale system? Investopedia defines a Point of Sales system as a place where a customer can make a payment for products and services and pay sales taxes. It is a revolutionized version of the traditional cash register system which can be in a physical store or used for online shopping. 
 
-The latter should already be a good enough reason for you to get a POS for your business, if not, below are 8 benefits of having a cloud-based pos. A cloud-based Pos, unlike a traditional pos, will save your data online. 
+The latter should already be a good enough reason for you to get a POS for your business. Below are the benefits of having a POS system.
 
 #### Efficient Financial Operations
 
@@ -20,6 +20,8 @@ At the end of the accounting period, all the data that was collected for that pe
 #### Inventory Management
 
 You do not want to find yourself stuck with a shortage of products because the person responsible for inventory management did not manage to finish his tasks on time for products to be ordered. With a POS that process is automated. Inventory availability gets updated with every purchase and you get to gather vital information that can guide you in decisions regarding your purchasing program. Waitr gives you insight into your products' and services' performance and this information can be used to direct you in setting up a purchasing program. 
+
+The following are benefits that are more related to a cloud-based pos system, which is a system that stores it's data online.
 
 #### Limitless Access
 
