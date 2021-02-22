@@ -39,8 +39,8 @@ You will know exactly where your business is headed with every transaction made.
 
 A cloud-based pos system gives your data protection against equipment theft and power disruptions as all your information gets stored online. Furthermore, you do need to worry much about backups as everything is done automatically.
 
-#### Customized Functionality 
+#### Personalised Functionality 
 
-Businesses differ in operations and needs; therefore, their use of available pos features will differ. With a cloud-based pos, you have the flexibility of having the system customized to best benefit your business and cater to your needs. 
+Businesses differ in operations and needs; therefore, their use of available pos features will differ. With a cloud-based pos, you have the flexibility of having the system personalised to best benefit your business and cater to your needs. 
 
 A Pos system has many benefits, but one that stands out from all of these above-mentioned benefits is the amount of time it frees up from the business owner and employees. POS systems do all the administration for you, giving you more time to spend on improving your business and ensuring better customer service with the information received from the reports.
