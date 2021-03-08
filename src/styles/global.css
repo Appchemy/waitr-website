@@ -75,3 +75,11 @@ h1 {
 .container li {
     display: list-item;
 }
+
+.price button {
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    background-color: #F63867 !important;
+}
