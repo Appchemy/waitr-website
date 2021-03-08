@@ -83,3 +83,7 @@ h1 {
     margin-bottom: 20px;
     background-color: #F63867 !important;
 }
+
+.Grid-cell {
+    min-width: 300px;
+}
