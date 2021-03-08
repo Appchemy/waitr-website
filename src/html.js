@@ -20,6 +20,12 @@ export default function HTML(props) {
       </head>
       <body {...props.bodyAttributes}>
       
+        <form name="" netlify="true" netlify-honeypot="bot-field" hidden>
+          <input type="text" name="firstname" />
+          <input type="text" name="lastname" />
+          <input type="text" name="email" />
+          <input type="text" name="phone" />
+        </form>
         {props.preBodyComponents}
         <div
           key={`body`}

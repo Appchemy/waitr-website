@@ -58,7 +58,7 @@ const Pricing = () => {
                             <div class="row main-cont-sec">
                                 <div class="col-lg-6 left-cont-contact">
                                     <div class="form-group input-gap">
-                                        <input class="form-control" type="text" onBlur={handleBlur} onChange={handleChange} value={values.firstname} name="firstname" id="w3lName" placeholder="First Name"
+                                        <input class="form-control" type="text" onBlur={handleBlur} onChange={handleChange} value={values.firstname} name="firstname" id="w3fName" placeholder="First Name"
                                             required="" />
                                     </div>
                                     <div class="form-group input-gap">
@@ -66,11 +66,11 @@ const Pricing = () => {
                                             required="" />
                                     </div>
                                     <div class="form-group input-gap">
-                                        <input class="form-control" type="email" onBlur={handleBlur} onChange={handleChange} value={values.email} name="email" id="w3lSender" placeholder="Email"
+                                        <input class="form-control" type="email" onBlur={handleBlur} onChange={handleChange} value={values.email} name="email" id="w3lEmail" placeholder="Email"
                                             required="" />
                                     </div>
                                     <div class="form-group input-gap">
-                                        <input class="form-control" type="tel" name="phone" onBlur={handleBlur} onChange={handleChange} value={values.phone} id="w3lSender" placeholder="Phone Number"
+                                        <input class="form-control" type="tel" name="phone" onBlur={handleBlur} onChange={handleChange} value={values.phone} id="w3lPhone" placeholder="Phone Number"
                                             required="" />
                                     </div>
                                     <div class="form-group-2">
