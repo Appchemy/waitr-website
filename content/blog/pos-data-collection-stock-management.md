@@ -1,5 +1,5 @@
 ---
-title: "POS Data Collection: Stock Management "
+title: "Do More With Your POS: Stock Management "
 date: 2021-08-24T10:30:16.802Z
 image: ../../static/images/3094324.jpg
 ---
