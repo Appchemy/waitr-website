@@ -1,5 +1,5 @@
 ---
-title: "POS Data Collection: Collecting Customer Data To Grow Your Business"
+title: "Do More With Your POS: Get To Know Your Customer"
 date: 2021-07-21T12:44:50.339Z
 image: ../../static/images/19197265.jpg
 ---
