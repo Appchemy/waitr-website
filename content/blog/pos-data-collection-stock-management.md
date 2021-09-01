@@ -5,7 +5,7 @@ image: ../../static/images/3094324.jpg
 ---
 Technology has evolved point of sale systems (POS systems) into a one-stop platform for managing your business.
 
-Also read: [POS Data Collection: Collecting Customer Data To Grow Your Business](https://www.waitr.co.za/pos-data-collection-collecting-customer-data-to-grow-your-business/)
+Also read: [Do More With Your POS: Get to know your customers ](https://www.waitr.co.za/pos-data-collection-collecting-customer-data-to-grow-your-business/)
 
 This development has come as a great relief to small businesses that can’t afford to employ enough staff members to fill up all the positions that are required to run a business smoothly. 
 
@@ -35,7 +35,7 @@ Stock/inventory shrinkage refers to the difference between the stock on record a
 
 The ability to track stock movement and employees responsible for moving the product keeps employees accountable and in so doing, reduces theft. 
 
-## Stock Related Data 
+## Stock Related Data
 
 A POS will allow you to gather the following data: 
 
