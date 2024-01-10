@@ -32,7 +32,7 @@ const Pricing = () => {
                         <PricingDetail> <b>Customer Ratings</b></PricingDetail>
                         <PricingDetail strikethrough> <b>Customer Support</b></PricingDetail>
                     </PricingSlot>
-                    <PricingSlot onClick={standard} highlighted buttonText='SIGN UP' title='STANDARD' priceText='R250/month'>
+                    <PricingSlot onClick={standard} highlighted buttonText='SIGN UP' title='STANDARD' priceText='R350/month'>
                     <PricingDetail> <b>1000</b> Notifications</PricingDetail>
                         <PricingDetail> <b>Unlimited</b> Cloud Storage</PricingDetail>
                         <PricingDetail> <b>5</b> Users</PricingDetail>
